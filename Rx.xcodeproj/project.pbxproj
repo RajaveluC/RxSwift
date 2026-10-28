@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F13110000000000000000001 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F13110000000000000000011 /* PrivacyInfo.xcprivacy */; };
+		F13110000000000000000002 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F13110000000000000000012 /* PrivacyInfo.xcprivacy */; };
+		F13110000000000000000003 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F13110000000000000000013 /* PrivacyInfo.xcprivacy */; };
 		033C2EF61D081C460050C015 /* UIScrollView+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C2EF41D081B2A0050C015 /* UIScrollView+RxTests.swift */; };
 		0BA949671E224B7E0036DD06 /* AsyncSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA949661E224B7E0036DD06 /* AsyncSubject.swift */; };
 		0BA9496C1E224B9C0036DD06 /* AsyncSubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9496B1E224B9C0036DD06 /* AsyncSubjectTests.swift */; };
@@ -951,6 +954,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F13110000000000000000011 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F13110000000000000000012 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F13110000000000000000013 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		033C2EF41D081B2A0050C015 /* UIScrollView+RxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+RxTests.swift"; sourceTree = "<group>"; };
 		0BA949661E224B7E0036DD06 /* AsyncSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncSubject.swift; sourceTree = "<group>"; };
 		0BA9496B1E224B9C0036DD06 /* AsyncSubjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncSubjectTests.swift; sourceTree = "<group>"; };
@@ -1606,6 +1612,7 @@
 		A2897CB2225CA1C6004EA481 /* RxRelay */ = {
 			isa = PBXGroup;
 			children = (
+				F13110000000000000000013 /* PrivacyInfo.xcprivacy */,
 				C8B0F7101F530CA700548EBE /* PublishRelay.swift */,
 				C8C8BCCE1F8944B800501D4D /* BehaviorRelay.swift */,
 				6A94254923AFC2F300B7A24C /* ReplayRelay.swift */,
@@ -1628,6 +1635,7 @@
 		C8093C471B8A72BE0088E94D /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F13110000000000000000011 /* PrivacyInfo.xcprivacy */,
 				C85217E81E3374970015DD38 /* GroupedObservable.swift */,
 				C8093C491B8A72BE0088E94D /* Cancelable.swift */,
 				C8093C4D1B8A72BE0088E94D /* ConnectableObservableType.swift */,
@@ -1819,6 +1827,7 @@
 		C8093E801B8A732E0088E94D /* RxCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				F13110000000000000000012 /* PrivacyInfo.xcprivacy */,
 				C89AB2781DAACE490065FBE6 /* RxCocoa.h */,
 				C89AB2261DAAC33F0065FBE6 /* RxCocoa.swift */,
 				C8A81C9E1E05E82C0008DEF4 /* Platform */,
@@ -2833,6 +2842,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13110000000000000000003 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2840,6 +2850,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13110000000000000000002 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2889,6 +2900,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13110000000000000000001 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
